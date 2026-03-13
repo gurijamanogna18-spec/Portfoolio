@@ -1,0 +1,97 @@
+*{
+            margin: 10px;
+            padding: 20px;
+            box-sizing:border-box;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        body{
+            background:rgb(176, 164, 180);
+        }
+        .container{
+            width:30%;
+            margin:20px;
+        }
+        /*Header*/
+        .header{
+            text-align: center;
+            padding:30px;
+        }
+        .header img{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            text-align:right-bottom;
+        }
+        .subtitle{
+            font-weight:bold;
+            color:azure;
+        }
+        .tagline{
+            color:beige;
+        }
+        /*Navigation*/
+        .nav{
+            background:#5d7bea;
+            text-align:center;
+            padding:12px;
+            border-radius:8px;            
+        }
+        .nav a{
+            color:white;
+            margin:0 12px;
+            text-decoration:none;
+            font-weight:bold;
+            padding:12px 18px;
+            display:inline-block;
+            border-radius:20px;
+        }
+        .nav a:hover{
+            text-decoration:underline;
+        }
+        /*Cards*/
+        .card{
+            background:rgb(225,222,222);
+            padding:5px;
+            margin: 20px ;
+            border-radius:10px;
+        }
+        /*Section colors*/
+        .about{
+            background:#fff3e0;
+        }
+        .skills{
+            background:#e3f2fd;
+        }
+        .project{
+            background:beige;
+        }
+        .education{
+            background: #e3f2fd;
+        }
+        .certifications{
+            background:#e8f5ed;
+        }
+        .contact{
+            background:#eeff;
+        }
+        .card h2{
+            margin-bottom:10px;
+        }
+        .card ul{
+            margin-left:20px;
+        }
+        /*Footer*/
+        footer{
+            background:#fff3e0;
+            color:black;
+            text-align:center;
+            padding:12px;
+            border-radius:8px;
+            margin-bottom:10px;
+        }
